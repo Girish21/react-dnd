@@ -1,15 +1,15 @@
-import React from "react";
-import styled from "styled-components";
-import tw from "twin.macro";
-import "./App.css";
+import React from 'react'
+import styled from 'styled-components'
+import tw from 'twin.macro'
+import './App.css'
 
 const StyledDiv = styled.div`
   ${tw`w-full h-screen`}
   background: hotpink;
-`;
+`
 
 function App() {
-  return <StyledDiv />;
+  return <StyledDiv />
 }
 
-export default App;
+export default App
